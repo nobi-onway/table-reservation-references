@@ -1,0 +1,115 @@
+@import '../../../../components/GlobalStyles/variables';
+
+.overlay {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.wrapper {
+    width: 400px;
+    padding: 4rem 2rem;
+    background-color: white;
+    max-height: 50vh;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.logo {
+    width: 70%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0.5rem 0;
+    color: $secondary-color;
+    font-weight: 700;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    position: absolute;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.table-header {
+    font-size: large;
+    font-weight: 700;
+    color: $primary-color;
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+.table-row {
+    font-size: large;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+}
+// shared css
+.m-col-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.m-col-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.m-ver-4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.medium-txt {
+    font-size: small;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}

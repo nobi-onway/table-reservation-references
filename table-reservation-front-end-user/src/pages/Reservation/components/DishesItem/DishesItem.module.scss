@@ -1,0 +1,40 @@
+.detail-wrapper {
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.detail {
+    display: block;
+    text-align: left;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+    font-size: x-small;
+}
+
+.delete {
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.quantity {
+    height: 16px;
+    background-color: #e8e8e8;
+    font-size: small;
+    border-radius: 4px;
+    padding: 1rem 0.5rem;
+    border: none;
+    outline: none;
+    width: fit-content;
+    text-align: center;
+    width: 100%;
+}

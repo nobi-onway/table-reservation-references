@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Great+Vibes&family=Lobster&family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Satisfy&display=swap');
+.wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://virtualbackgrounds.site/wp-content/uploads/2020/08/classy-restaurant.jpg'),
+        center/ cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.menu-img {
+    height: 80vh;
+}
+
+.title {
+    font-weight: 700;
+    font-size: xx-large;
+    color: white;
+    margin-top: 2rem;
+    font-family: 'Averia Libre', cursive;
+    font-style: italic;
+}
+
+.description {
+    font-family: 'Great Vibes', cursive;
+    font-size: x-large;
+    color: white;
+}
